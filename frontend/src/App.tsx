@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from "@/routes/Home"
 import Register from './routes/Register'
 import Login from './routes/Login'
-function App() {
 
+function App() {
 
   return (
     <>
@@ -17,9 +17,6 @@ function App() {
    <Route path="*" element={<div>404</div>} />
 </Routes>
       </BrowserRouter>
-      
-    
-
     </>
   )
 }
