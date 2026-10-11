@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/user/create",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MyRequest",
+        "Type": "backend.MyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.MyResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendMyEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/users/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Users.GetAllUsers.GetAllUsersResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesUsersGetAllUsersGetAllUsersEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/users/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetUserRequest",
+        "Type": "backend.Features.Users.GetUser.GetUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Users.GetUser.GetUserResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesUsersGetUserGetUserEndpoint"
+  }
+]
