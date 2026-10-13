@@ -1,7 +1,5 @@
 const Login = () => {
-    return (
-        <>LOGIN</>
-    )
-}
+	return <>LOGIN</>;
+};
 
 export default Login;

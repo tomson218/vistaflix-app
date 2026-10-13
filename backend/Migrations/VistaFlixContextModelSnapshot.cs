@@ -70,6 +70,10 @@ namespace backend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.PrimitiveCollection<int[]>("Genres")
+                        .IsRequired()
+                        .HasColumnType("integer[]");
+
                     b.Property<string>("MediaType")
                         .IsRequired()
                         .HasColumnType("text");

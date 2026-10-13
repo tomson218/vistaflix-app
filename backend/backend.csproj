@@ -17,4 +17,15 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Auth\Login\" />
+    <Folder Include="Features\Auth\Register\" />
+    <Folder Include="Features\MovieScreenings\CreateMovieScreening\" />
+    <Folder Include="Features\MovieScreenings\DeleteMovieScreening\" />
+    <Folder Include="Features\MovieScreenings\UpdateMovieScreening\" />
+    <Folder Include="Features\Movies\CreateMovie\" />
+    <Folder Include="Features\Movies\DeleteMovie\" />
+    <Folder Include="Features\Movies\UpdateMovie\" />
+  </ItemGroup>
+
 </Project>

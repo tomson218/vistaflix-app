@@ -1,7 +1,5 @@
 const Register = () => {
-    return (
-        <>REGISTER</>
-    )
-}
+	return <>REGISTER</>;
+};
 
 export default Register;

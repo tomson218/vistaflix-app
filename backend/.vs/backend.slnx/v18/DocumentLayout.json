@@ -1,0 +1,479 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\backend.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:backend.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\movies\\getallmovies\\getallmoviesendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\movies\\getallmovies\\getallmoviesendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\domain\\tickets\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:domain\\tickets\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\domain\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:domain\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\domain\\moviescreenings\\moviescreening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:domain\\moviescreenings\\moviescreening.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\domain\\movies\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:domain\\movies\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\orders\\getallorders\\getallordersendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\orders\\getallorders\\getallordersendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\moviescreenings\\moviescreeningsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\moviescreenings\\moviescreeningsgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\moviescreenings\\getmoviescreening\\getmoviescreeningendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\moviescreenings\\getmoviescreening\\getmoviescreeningendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\moviescreenings\\getallmoviescreenings\\getallmoviescreeningsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\moviescreenings\\getallmoviescreenings\\getallmoviescreeningsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\movies\\getmovie\\getmovieendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\movies\\getmovie\\getmovieendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\orders\\getorder\\getorderendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\orders\\getorder\\getorderendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\orders\\getuserorders\\getuserordersendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\orders\\getuserorders\\getuserordersendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\users\\getuser\\getuserendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\users\\getuser\\getuserendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\users\\getallusers\\getallusersendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\users\\getallusers\\getallusersendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\orders\\ordersgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\orders\\ordersgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\migrations\\vistaflixcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:migrations\\vistaflixcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\tickets\\getticket\\getticketendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\tickets\\getticket\\getticketendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\features\\tickets\\getalltickets\\getallticketsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:features\\tickets\\getalltickets\\getallticketsendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\domain\\vistaflixcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:domain\\vistaflixcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|c:\\users\\tomas\\desktop\\projects\\vistaflix-app\\backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5ADA2BB6-BD8A-FBBA-631C-E748BB1D8E69}|backend.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T19:45:12.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T19:45:09.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T19:44:43.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetAllOrdersEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\GetAllOrders\\GetAllOrdersEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Orders\\GetAllOrders\\GetAllOrdersEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\GetAllOrders\\GetAllOrdersEndpoint.cs",
+              "RelativeToolTip": "Features\\Orders\\GetAllOrders\\GetAllOrdersEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T10:29:12.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Movies\\Movie.cs",
+              "RelativeDocumentMoniker": "Domain\\Movies\\Movie.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Movies\\Movie.cs",
+              "RelativeToolTip": "Domain\\Movies\\Movie.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T17:55:31.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MovieScreening.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\MovieScreenings\\MovieScreening.cs",
+              "RelativeDocumentMoniker": "Domain\\MovieScreenings\\MovieScreening.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\MovieScreenings\\MovieScreening.cs",
+              "RelativeToolTip": "Domain\\MovieScreenings\\MovieScreening.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:02:02.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Orders\\Order.cs",
+              "RelativeDocumentMoniker": "Domain\\Orders\\Order.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Orders\\Order.cs",
+              "RelativeToolTip": "Domain\\Orders\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:13:23.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Tickets\\Ticket.cs",
+              "RelativeDocumentMoniker": "Domain\\Tickets\\Ticket.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Tickets\\Ticket.cs",
+              "RelativeToolTip": "Domain\\Tickets\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:17:49.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "backend.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\backend.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "backend.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\backend.csproj.Backup.tmp",
+              "RelativeToolTip": "backend.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-11T19:10:45.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieScreeningsGroup.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\MovieScreenings\\MovieScreeningsGroup.cs",
+              "RelativeDocumentMoniker": "Features\\MovieScreenings\\MovieScreeningsGroup.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\MovieScreenings\\MovieScreeningsGroup.cs",
+              "RelativeToolTip": "Features\\MovieScreenings\\MovieScreeningsGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T19:19:38.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\Users\\User.cs",
+              "RelativeToolTip": "Domain\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T18:09:38.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllMoviesEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Movies\\GetAllMovies\\GetAllMoviesEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Movies\\GetAllMovies\\GetAllMoviesEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Movies\\GetAllMovies\\GetAllMoviesEndpoint.cs",
+              "RelativeToolTip": "Features\\Movies\\GetAllMovies\\GetAllMoviesEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T09:45:01.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetMovieScreeningEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\MovieScreenings\\GetMovieScreening\\GetMovieScreeningEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\MovieScreenings\\GetMovieScreening\\GetMovieScreeningEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\MovieScreenings\\GetMovieScreening\\GetMovieScreeningEndpoint.cs",
+              "RelativeToolTip": "Features\\MovieScreenings\\GetMovieScreening\\GetMovieScreeningEndpoint.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T10:45:02.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllMovieScreeningsEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\MovieScreenings\\GetAllMovieScreenings\\GetAllMovieScreeningsEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\MovieScreenings\\GetAllMovieScreenings\\GetAllMovieScreeningsEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\MovieScreenings\\GetAllMovieScreenings\\GetAllMovieScreeningsEndpoint.cs",
+              "RelativeToolTip": "Features\\MovieScreenings\\GetAllMovieScreenings\\GetAllMovieScreeningsEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T10:45:19.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetOrderEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\GetOrder\\GetOrderEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Orders\\GetOrder\\GetOrderEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\GetOrder\\GetOrderEndpoint.cs",
+              "RelativeToolTip": "Features\\Orders\\GetOrder\\GetOrderEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T10:28:57.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetUserOrdersEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\GetUserOrders\\GetUserOrdersEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Orders\\GetUserOrders\\GetUserOrdersEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\GetUserOrders\\GetUserOrdersEndpoint.cs",
+              "RelativeToolTip": "Features\\Orders\\GetUserOrders\\GetUserOrdersEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T11:41:47.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetMovieEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Movies\\GetMovie\\GetMovieEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Movies\\GetMovie\\GetMovieEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Movies\\GetMovie\\GetMovieEndpoint.cs",
+              "RelativeToolTip": "Features\\Movies\\GetMovie\\GetMovieEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T10:13:22.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetUserEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Users\\GetUser\\GetUserEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Users\\GetUser\\GetUserEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Users\\GetUser\\GetUserEndpoint.cs",
+              "RelativeToolTip": "Features\\Users\\GetUser\\GetUserEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T19:10:26.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllUsersEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Users\\GetAllUsers\\GetAllUsersEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Users\\GetAllUsers\\GetAllUsersEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Users\\GetAllUsers\\GetAllUsersEndpoint.cs",
+              "RelativeToolTip": "Features\\Users\\GetAllUsers\\GetAllUsersEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T13:56:26.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrdersGroup.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\OrdersGroup.cs",
+              "RelativeDocumentMoniker": "Features\\Orders\\OrdersGroup.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Orders\\OrdersGroup.cs",
+              "RelativeToolTip": "Features\\Orders\\OrdersGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T19:15:17.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VistaFlixContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Migrations\\VistaFlixContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\VistaFlixContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Migrations\\VistaFlixContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\VistaFlixContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T19:14:31.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetTicketEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Tickets\\GetTicket\\GetTicketEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\GetTicket\\GetTicketEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Tickets\\GetTicket\\GetTicketEndpoint.cs",
+              "RelativeToolTip": "Features\\Tickets\\GetTicket\\GetTicketEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T11:14:16.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetAllTicketsEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Tickets\\GetAllTickets\\GetAllTicketsEndpoint.cs",
+              "RelativeDocumentMoniker": "Features\\Tickets\\GetAllTickets\\GetAllTicketsEndpoint.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Features\\Tickets\\GetAllTickets\\GetAllTicketsEndpoint.cs",
+              "RelativeToolTip": "Features\\Tickets\\GetAllTickets\\GetAllTicketsEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T11:13:47.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T12:57:24.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "VistaFlixContext.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\VistaFlixContext.cs",
+              "RelativeDocumentMoniker": "Domain\\VistaFlixContext.cs",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\Domain\\VistaFlixContext.cs",
+              "RelativeToolTip": "Domain\\VistaFlixContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T13:55:56.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-11T19:10:42.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\tomas\\Desktop\\projects\\vistaflix-app\\backend\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-11T12:57:33.692Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

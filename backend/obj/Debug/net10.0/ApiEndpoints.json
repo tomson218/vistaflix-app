@@ -2,27 +2,203 @@
   {
     "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
     "Method": "\u003CMap\u003Eb__0_1",
-    "RelativePath": "api/user/create",
-    "HttpMethod": "POST",
+    "RelativePath": "api/v1/movies/",
+    "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "MyRequest",
-        "Type": "backend.MyRequest",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "backend.MyResponse",
+        "Type": "backend.Features.Movies.GetAllMovies.GetAllMoviesEndpoint\u002BGetAllMoviesResponse",
         "MediaTypes": [
           "application/json"
         ],
         "StatusCode": 200
       }
     ],
-    "EndpointName": "backendMyEndpoint"
+    "EndpointName": "backendFeaturesMoviesGetAllMoviesGetAllMoviesEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/movies/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetMovieRequest",
+        "Type": "backend.Features.Movies.GetMovie.GetMovieRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Movies.GetMovie.GetMovieResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesMoviesGetMovieGetMovieEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/movieScreenings/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.MovieScreenings.GetAllMovieScreenings.GetAllMovieScreeningsResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesMovieScreeningsGetAllMovieScreeningsGetAllMovieScreeningsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/movieScreenings/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetMovieScreeningRequest",
+        "Type": "backend.Features.MovieScreenings.GetMovieScreening.GetMovieScreeningRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.MovieScreenings.GetMovieScreening.GetMovieScreeningResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesMovieScreeningsGetMovieScreeningGetMovieScreeningEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/orders/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Orders.GetAllOrders.GetAllOrdersResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesOrdersGetAllOrdersGetAllOrdersEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/orders/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetOrderRequest",
+        "Type": "backend.Features.Orders.GetOrder.GetOrderRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Orders.GetOrder.GetOrderResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesOrdersGetOrderGetOrderEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/orders/users/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetUserOrdersRequest",
+        "Type": "backend.Features.Orders.GetUserOrders.GetUserOrdersRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Orders.GetUserOrders.GetUserOrdersResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesOrdersGetUserOrdersGetUserOrdersEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/tickets/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Tickets.GetAllTickets.GetAllTicketsResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesTicketsGetAllTicketsGetAllTicketsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/v1/tickets/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetTicketRequest",
+        "Type": "backend.Features.Tickets.GetTicket.GetTicketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend.Features.Tickets.GetTicket.GetTicketResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "backendFeaturesTicketsGetTicketGetTicketEndpoint"
   },
   {
     "ContainingType": "FastEndpoints.EndpointRouteMapper\u002B\u003C\u003Ec",

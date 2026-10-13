@@ -1,10 +1,7 @@
 using FastEndpoints;
-using System;
-using System.Linq;
+using FastEndpoints.Swagger;
 using Microsoft.EntityFrameworkCore;
 using backend.Domain;
-using Npgsql;
-
 DotNetEnv.Env.Load();
 
 var bld = WebApplication.CreateBuilder();
@@ -15,4 +12,6 @@ bld.Services.AddDbContext<VistaFlixContext>(options =>
 
 var app = bld.Build();
 app.UseFastEndpoints();
+app.UseSwaggerGen();
+//app.UseSwaggerUi();
 app.Run();
