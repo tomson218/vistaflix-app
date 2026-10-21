@@ -1,0 +1,936 @@
+{
+  "x-generator": "NSwag v14.7.1.0 (NJsonSchema v11.6.1.0 (Newtonsoft.Json v13.0.0.0))",
+  "openapi": "3.0.0",
+  "info": {
+    "title": "backend",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v1/users/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "backendFeaturesUsersGetUserGetUserEndpoint",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesUsersGetUserGetUserResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "backendFeaturesUsersGetAllUsersGetAllUsersEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesUsersGetAllUsersGetAllUsersResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/tickets/{id}": {
+      "get": {
+        "tags": [
+          "Tickets"
+        ],
+        "operationId": "backendFeaturesTicketsGetTicketGetTicketEndpoint",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesTicketsGetTicketGetTicketResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/tickets": {
+      "get": {
+        "tags": [
+          "Tickets"
+        ],
+        "operationId": "backendFeaturesTicketsGetAllTicketsGetAllTicketsEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesTicketsGetAllTicketsGetAllTicketsResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/orders/users/{id}": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "operationId": "backendFeaturesOrdersGetUserOrdersGetUserOrdersEndpoint",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesOrdersGetUserOrdersGetUserOrdersResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/orders/{id}": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "operationId": "backendFeaturesOrdersGetOrderGetOrderEndpoint",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesOrdersGetOrderGetOrderResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/orders": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "operationId": "backendFeaturesOrdersGetAllOrdersGetAllOrdersEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesOrdersGetAllOrdersGetAllOrdersResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/movies/{id}": {
+      "get": {
+        "tags": [
+          "Movies"
+        ],
+        "operationId": "backendFeaturesMoviesGetMovieGetMovieEndpoint",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesMoviesGetMovieGetMovieResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/movies": {
+      "get": {
+        "tags": [
+          "Movies"
+        ],
+        "operationId": "backendFeaturesMoviesGetAllMoviesGetAllMoviesEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesMoviesGetAllMoviesGetAllMoviesEndpoint_GetAllMoviesResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/movieScreenings/{id}": {
+      "get": {
+        "tags": [
+          "Moviescreenings"
+        ],
+        "operationId": "backendFeaturesMovieScreeningsGetMovieScreeningGetMovieScreeningEndpoint",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesMovieScreeningsGetMovieScreeningGetMovieScreeningResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/movieScreenings": {
+      "get": {
+        "tags": [
+          "Moviescreenings"
+        ],
+        "operationId": "backendFeaturesMovieScreeningsGetAllMovieScreeningsGetAllMovieScreeningsEndpoint",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BackendFeaturesMovieScreeningsGetAllMovieScreeningsGetAllMovieScreeningsResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FastEndpointsProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BackendFeaturesUsersGetUserGetUserResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "phoneNumber": {
+            "type": "string"
+          }
+        }
+      },
+      "BackendFeaturesUsersGetUserGetUserRequest": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "FastEndpointsProblemDetails": {
+        "type": "object",
+        "description": "RFC9457 compatible problem details/ error response class. this can be used by configuring startup like so:\napp.UseFastEndpoints(c => c.Errors.UseProblemDetails())",
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "type": "string",
+            "default": "https://www.rfc-editor.org/rfc/rfc7231#section-6.5.1"
+          },
+          "title": {
+            "type": "string",
+            "default": "One or more validation errors occurred."
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "default": 400
+          },
+          "instance": {
+            "type": "string",
+            "default": "/api/route"
+          },
+          "traceId": {
+            "type": "string",
+            "default": "0HMPNHL0JHL76:00000001"
+          },
+          "detail": {
+            "type": "string",
+            "description": "the details of the error",
+            "nullable": true
+          },
+          "errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FastEndpointsProblemDetails_Error"
+            }
+          }
+        }
+      },
+      "FastEndpointsProblemDetails_Error": {
+        "type": "object",
+        "description": "the error details object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "the name of the error or property of the dto that caused the error",
+            "default": "Error or field name"
+          },
+          "reason": {
+            "type": "string",
+            "description": "the reason for the error",
+            "default": "Error reason"
+          },
+          "code": {
+            "type": "string",
+            "description": "the code of the error",
+            "nullable": true
+          },
+          "severity": {
+            "type": "string",
+            "description": "the severity of the error",
+            "nullable": true
+          }
+        }
+      },
+      "BackendFeaturesUsersGetAllUsersGetAllUsersResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "users": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendFeaturesUsersGetAllUsersGetAllUsersResponse_UserDto"
+            }
+          }
+        }
+      },
+      "BackendFeaturesUsersGetAllUsersGetAllUsersResponse_UserDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "phoneNumber": {
+            "type": "string"
+          }
+        }
+      },
+      "BackendFeaturesTicketsGetTicketGetTicketResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "movieScreeningId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "seating": {
+            "type": "string"
+          }
+        }
+      },
+      "BackendFeaturesTicketsGetTicketGetTicketRequest": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "BackendFeaturesTicketsGetAllTicketsGetAllTicketsResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "tickets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendFeaturesTicketsGetAllTicketsGetAllTicketsResponse_TicketDto"
+            }
+          }
+        }
+      },
+      "BackendFeaturesTicketsGetAllTicketsGetAllTicketsResponse_TicketDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "movieScreeningId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "seating": {
+            "type": "string"
+          }
+        }
+      },
+      "BackendFeaturesOrdersGetUserOrdersGetUserOrdersResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "orderDtos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendFeaturesOrdersGetUserOrdersGetUserOrdersResponse_OrderDto"
+            }
+          }
+        }
+      },
+      "BackendFeaturesOrdersGetUserOrdersGetUserOrdersResponse_OrderDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalAmount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "BackendFeaturesOrdersGetUserOrdersGetUserOrdersRequest": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "BackendFeaturesOrdersGetOrderGetOrderResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalAmount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "BackendFeaturesOrdersGetOrderGetOrderRequest": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "BackendFeaturesOrdersGetAllOrdersGetAllOrdersResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendFeaturesOrdersGetAllOrdersGetAllOrdersResponse_OrderDto"
+            }
+          }
+        }
+      },
+      "BackendFeaturesOrdersGetAllOrdersGetAllOrdersResponse_OrderDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalAmount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "BackendFeaturesMoviesGetMovieGetMovieResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "adult": {
+            "type": "boolean"
+          },
+          "backdropPath": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "originalLanguage": {
+            "type": "string"
+          },
+          "originalTitle": {
+            "type": "string"
+          },
+          "overview": {
+            "type": "string"
+          },
+          "posterPath": {
+            "type": "string"
+          },
+          "mediaType": {
+            "type": "string"
+          },
+          "genres": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendDomainMoviesGenre"
+            }
+          },
+          "popularity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "releaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "video": {
+            "type": "boolean"
+          },
+          "voteAverage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "voteCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "BackendDomainMoviesGenre": {
+        "type": "integer",
+        "description": "",
+        "x-enumNames": [
+          "COMEDY",
+          "ACTION",
+          "DRAMA",
+          "HORROR",
+          "SCI_FI",
+          "ROMANCE",
+          "THRILLER",
+          "ANIMATION"
+        ],
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "BackendFeaturesMoviesGetMovieGetMovieRequest": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "BackendFeaturesMoviesGetAllMoviesGetAllMoviesEndpoint_GetAllMoviesResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "movies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendFeaturesMoviesGetAllMoviesGetAllMoviesEndpoint_GetAllMoviesResponse_MovieDto"
+            }
+          }
+        }
+      },
+      "BackendFeaturesMoviesGetAllMoviesGetAllMoviesEndpoint_GetAllMoviesResponse_MovieDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "adult": {
+            "type": "boolean"
+          },
+          "backdropPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "originalLanguage": {
+            "type": "string",
+            "nullable": true
+          },
+          "originalTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "overview": {
+            "type": "string",
+            "nullable": true
+          },
+          "posterPath": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaType": {
+            "type": "string",
+            "nullable": true
+          },
+          "genres": {
+            "type": "array",
+            "nullable": true,
+            "items": {
+              "$ref": "#/components/schemas/BackendDomainMoviesGenre"
+            }
+          },
+          "popularity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "releaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "video": {
+            "type": "boolean"
+          },
+          "voteAverage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "voteCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "BackendFeaturesMovieScreeningsGetMovieScreeningGetMovieScreeningResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "movieId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "cinemaHall": {
+            "type": "string"
+          },
+          "screeningDateTime": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "BackendFeaturesMovieScreeningsGetMovieScreeningGetMovieScreeningRequest": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "BackendFeaturesMovieScreeningsGetAllMovieScreeningsGetAllMovieScreeningsResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "movieScreenings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BackendFeaturesMovieScreeningsGetAllMovieScreeningsGetAllMovieScreeningsResponse_MovieScreeningDto"
+            }
+          }
+        }
+      },
+      "BackendFeaturesMovieScreeningsGetAllMovieScreeningsGetAllMovieScreeningsResponse_MovieScreeningDto": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "movieId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "cinemaHall": {
+            "type": "string"
+          },
+          "screeningDateTime": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "JWTBearerAuth": {
+        "type": "http",
+        "description": "Enter a JWT token to authorize the requests...",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

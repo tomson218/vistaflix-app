@@ -1,12 +1,12 @@
 import { axiosInstance } from '@/axiosInstance';
-import type { UsersResponse } from '@/features/users/types/User';
+import type { UserDto, UsersResponse } from '@/features/users/types/User';
 import { useQuery } from '@tanstack/react-query';
 
 export const useGetAllUsersQuery = () => {
-	const getAllUsers = async (): Promise<UsersResponse> => {
+	const getAllUsers = async (): Promise<UserDto[]> => {
 		const response = await axiosInstance.get<UsersResponse>('/api/v1/users');
 		const data = response.data;
-		return data;
+		return data.users;
 	};
 
 	return useQuery({

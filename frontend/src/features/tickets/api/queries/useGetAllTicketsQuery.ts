@@ -1,12 +1,12 @@
 import { axiosInstance } from '@/axiosInstance';
 import { useQuery } from '@tanstack/react-query';
-import type { TicketsResponse } from "@/features/tickets/types/Ticket";
+import type { Ticket, TicketsResponse } from '@/features/tickets/types/Ticket';
 
 export const getAllTicketsQuery = () => {
-	const getAllTickets = async (): Promise<TicketsResponse> => {
+	const getAllTickets = async (): Promise<Ticket[]> => {
 		const response = await axiosInstance.get<TicketsResponse>('/api/v1/tickets');
 		const data = response.data;
-		return data;
+		return data.tickets;
 	};
 
 	return useQuery({

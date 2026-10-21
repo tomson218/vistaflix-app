@@ -2,10 +2,12 @@ using FastEndpoints;
 using FastEndpoints.Swagger;
 using Microsoft.EntityFrameworkCore;
 using backend.Domain;
-DotNetEnv.Env.Load();
+
+DotNetEnv.Env.Load(".env.local");
 
 var bld = WebApplication.CreateBuilder();
 bld.Services.AddFastEndpoints();
+bld.Services.SwaggerDocument();
 
 bld.Services.AddDbContext<VistaFlixContext>(options =>
     options.UseNpgsql(bld.Configuration.GetConnectionString("DefaultConnection")));
@@ -26,6 +28,4 @@ app.UseFastEndpoints();
 app.UseSwaggerGen();
 
 app.UseCors();
-
-//app.UseSwaggerUi();
 app.Run();

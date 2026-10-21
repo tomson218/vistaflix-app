@@ -1,6 +1,6 @@
 import z from 'zod';
 
-const genreEnum = z.enum(['COMEDY']);
+export const genreEnum = z.enum(['COMEDY', 'ACTION', 'DRAMA', 'HORROR', 'SCI_FI', 'ROMANCE', 'THRILLER', 'ANIMATION']);
 
 export const movieSchema = z.object({
 	id: z.number(),

@@ -24,9 +24,13 @@ namespace backend.Domain.Movies
 
     public enum Genre
     {
-        COMEDY,
-        ACTION, 
-        DRAMA, 
-        HORROR
+        COMEDY,     // 0
+        ACTION,     // 1
+        DRAMA,      // 2
+        HORROR,     // 3
+        SCI_FI,     // 4
+        ROMANCE,    // 5
+        THRILLER,   // 6
+        ANIMATION   // 7
     }
 }
