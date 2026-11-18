@@ -16,6 +16,7 @@ namespace backend.Features.Users.GetAllUsers
         {
             Get("");  
             Group<UsersGroup>();
+            Roles(nameof(UserRole.Admin));
         }
 
         public override async Task HandleAsync(CancellationToken ct)

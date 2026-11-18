@@ -13,7 +13,6 @@ namespace backend.Features.MovieScreenings
                     .ProducesProblemDetails(500)
                     .AutoTagOverride("MovieScreenings")
                     .WithGroupName("MovieScreenings"));
-                ep.AllowAnonymous();
             });
         }
     }

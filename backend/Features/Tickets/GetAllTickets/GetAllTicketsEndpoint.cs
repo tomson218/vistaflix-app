@@ -1,4 +1,5 @@
 ﻿using backend.Domain;
+using backend.Domain.Users;
 using FastEndpoints;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,7 @@ namespace backend.Features.Tickets.GetAllTickets
         {
             Get("");
             Group<TicketsGroup>();
+            Roles(nameof(UserRole.Admin));
         }
 
         public override async Task HandleAsync(CancellationToken ct)

@@ -13,7 +13,6 @@ namespace backend.Features.Orders
                     .ProducesProblemDetails(500)
                     .AutoTagOverride("Orders")
                     .WithGroupName("Orders"));
-                ep.AllowAnonymous();
             });
         }
 

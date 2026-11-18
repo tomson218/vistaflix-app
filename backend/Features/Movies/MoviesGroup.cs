@@ -13,7 +13,6 @@ namespace backend.Features.Movies
                     .ProducesProblemDetails(500)
                     .AutoTagOverride("Movies")
                     .WithGroupName("Movies"));
-                ep.AllowAnonymous();
             });
         }
     }

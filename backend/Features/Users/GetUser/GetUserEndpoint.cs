@@ -1,4 +1,5 @@
 ﻿using backend.Domain;
+using backend.Services;
 using FastEndpoints;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +19,12 @@ namespace backend.Features.Users.GetUser
 
         public override async Task HandleAsync(GetUserRequest req, CancellationToken ct)
         {
+            if (!User.CanAccessDataOf(req.Id))
+            {
+                await Send.ForbiddenAsync(ct);
+                return;
+            }
+
             var user = await db.Users.FindAsync(req.Id);
 
             if (user is null)

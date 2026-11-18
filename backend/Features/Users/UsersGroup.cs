@@ -13,7 +13,6 @@ namespace backend.Features.Users
                     .ProducesProblemDetails(500)
                     .AutoTagOverride("Users")
                     .WithGroupName("Users"));
-                ep.AllowAnonymous();
             });
         }
     }
