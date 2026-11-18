@@ -16,7 +16,7 @@ const Home = () => {
 	const daysList = useMemo(() => {
 		const [start, end] = rangeDates();
 		const days: Date[] = [];
-		let currentDate = new Date(start);
+		const currentDate = new Date(start);
 
 		while (currentDate <= end) {
 			days.push(new Date(currentDate));
@@ -142,7 +142,7 @@ const Home = () => {
 			)}
 
 			{/* A carousel of screenings */}
-			{!isMovieScreeningsPending && filteredScreenings?.length > 0 && (
+			{!isMovieScreeningsPending && (filteredScreenings?.length ?? 0) > 0 && (
 				<Carousel
 					opts={{
 						align: 'start',

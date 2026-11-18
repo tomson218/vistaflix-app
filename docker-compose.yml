@@ -1,0 +1,65 @@
+name: vistaflix
+
+x-backend-environment: &backend-environment
+  ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=${POSTGRES_DB:-vistaflix};Username=${POSTGRES_USER:-vistaflix};Password=${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+  TokenSigningKey: ${TOKEN_SIGNING_KEY:?Set TOKEN_SIGNING_KEY in .env}
+  RefreshTokenSigningKey: ${REFRESH_TOKEN_SIGNING_KEY:?Set REFRESH_TOKEN_SIGNING_KEY in .env}
+  CsrfSigningKey: ${CSRF_SIGNING_KEY:?Set CSRF_SIGNING_KEY in .env}
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-vistaflix}
+      POSTGRES_USER: ${POSTGRES_USER:-vistaflix}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  migrate:
+    build:
+      context: ./backend
+      target: migrator
+    restart: "no"
+    environment: *backend-environment
+    depends_on:
+      db:
+        condition: service_healthy
+
+  backend:
+    build:
+      context: ./backend
+      target: runtime
+    restart: unless-stopped
+    environment:
+      <<: *backend-environment
+      ASPNETCORE_ENVIRONMENT: Production
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/127.0.0.1/8080"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+  frontend:
+    build:
+      context: ./frontend
+      target: runtime
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-8080}:8080"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  postgres-data:
