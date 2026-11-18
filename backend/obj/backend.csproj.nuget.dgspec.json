@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[8.3.0, )"
             },
+            "FastEndpoints.Security": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
             "FastEndpoints.Swagger": {
               "target": "Package",
               "version": "[8.3.0, )"

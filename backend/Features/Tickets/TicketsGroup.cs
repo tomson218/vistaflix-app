@@ -13,7 +13,6 @@ namespace backend.Features.Tickets
                     .ProducesProblemDetails(500)
                     .AutoTagOverride("Tickets")
                     .WithGroupName("Tickets"));
-                ep.AllowAnonymous();
             });
         }
     }

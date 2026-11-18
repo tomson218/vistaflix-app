@@ -1,4 +1,5 @@
 ﻿using backend.Domain;
+using backend.Services;
 using FastEndpoints;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,10 +22,18 @@ namespace backend.Features.Orders.GetUserOrders
 
         public override async Task HandleAsync(GetUserOrdersRequest req, CancellationToken ct)
         {
+            if (!User.CanAccessDataOf(req.Id))
+            {
+                await Send.ForbiddenAsync(ct);
+                return;
+            }
+
             var userOrdersList = await db.Orders
             .Where(o => o.UserId == req.Id)
             .Select(o => new GetUserOrdersResponse.OrderDto(o.Id, o.TotalAmount, o.UserId, o.CreatedAt))
-            .ToListAsync();
+            .ToListAsync(ct);
+
+            await Send.OkAsync(new GetUserOrdersResponse(userOrdersList), ct);
         }   
     }
 }

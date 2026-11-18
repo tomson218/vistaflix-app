@@ -1,6 +1,6 @@
 import { useGetMovieByIdQuery } from '@/features/movies/api/queries/useGetMovieByIdQuery';
 import { useGetMovieScreeningByIdQuery } from '@/features/movieScreenings/api/queries/useGetMovieScreeningByIdQuery';
-import { useParams, useNavigate, Link } from 'react-router';
+import { useParams, useNavigate } from 'react-router';
 import { z } from 'zod';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -18,6 +18,20 @@ const MovieScreeningDetails = () => {
 
 	const result = idSchema.safeParse(id);
 
+	const {
+		data: movieScreening,
+		isPending: isMovieScreeningPending,
+		isError: isMovieScreeningError,
+		error: movieScreeningError,
+	} = useGetMovieScreeningByIdQuery(result.success ? result.data : 0);
+
+	const {
+		data: movieDetails,
+		isPending: isMovieDetailsPending,
+		isError: isMovieDetailsError,
+		error: movieError,
+	} = useGetMovieByIdQuery(movieScreening?.movieId ?? 0);
+
 	if (!result.success) {
 		return (
 			<div className='container mx-auto px-4 py-16 text-center max-w-md'>
@@ -34,20 +48,6 @@ const MovieScreeningDetails = () => {
 			</div>
 		);
 	}
-
-	const {
-		data: movieScreening,
-		isPending: isMovieScreeningPending,
-		isError: isMovieScreeningError,
-		error: movieScreeningError,
-	} = useGetMovieScreeningByIdQuery(parseInt(id!));
-
-	const {
-		data: movieDetails,
-		isPending: isMovieDetailsPending,
-		isError: isMovieDetailsError,
-		error: movieError,
-	} = useGetMovieByIdQuery(parseInt(movieScreening?.movieId));
 
 	if (isMovieScreeningPending || isMovieDetailsPending) {
 		return <span>Loading...</span>;
@@ -91,7 +91,7 @@ const MovieScreeningDetails = () => {
 					<Clapperboard className='h-12 w-12 text-muted-foreground mx-auto mb-3' />
 					<h2 className='text-xl font-bold'>Wystąpił błąd</h2>
 					<p className='text-sm text-muted-foreground mt-1 mb-4'>
-						{movieScreeningError?.message || movieError?.message || 'Nie znaleziono seansu.'}
+						Nie znaleziono seansu.
 					</p>
 					<Button onClick={() => navigate('/')} className='gap-2'>
 						<ArrowLeft className='h-4 w-4' /> Wróć do strony głównej

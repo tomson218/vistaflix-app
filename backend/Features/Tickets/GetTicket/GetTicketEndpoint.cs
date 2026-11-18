@@ -1,5 +1,7 @@
 ﻿using backend.Domain;
+using backend.Services;
 using FastEndpoints;
+using Microsoft.EntityFrameworkCore;
 
 namespace backend.Features.Tickets.GetTicket
 {
@@ -17,11 +19,20 @@ namespace backend.Features.Tickets.GetTicket
 
         public override async Task HandleAsync(GetTicketRequest req, CancellationToken ct)
         {
-            var ticket = await db.Tickets.FindAsync(req.Id);
+            var ticket = await db.Tickets
+                .Where(t => t.Id == req.Id)
+                .Select(t => new { t.Id, t.OrderId, t.MovieScreeningId, t.Seating, OwnerId = t.Order.UserId })
+                .SingleOrDefaultAsync(ct);
 
             if (ticket == null)
             {
                 await Send.NotFoundAsync(ct);
+                return;
+            }
+
+            if (!User.CanAccessDataOf(ticket.OwnerId))
+            {
+                await Send.ForbiddenAsync(ct);
                 return;
             }
 

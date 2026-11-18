@@ -1,5 +1,6 @@
 ﻿using backend.Domain;
 using backend.Features.Orders;
+using backend.Services;
 using FastEndpoints;
 
 namespace backend.Features.Orders.GetOrder
@@ -23,6 +24,12 @@ namespace backend.Features.Orders.GetOrder
             if (order == null) 
             {
                 await Send.NotFoundAsync(ct);
+                return;
+            }
+
+            if (!User.CanAccessDataOf(order.UserId))
+            {
+                await Send.ForbiddenAsync(ct);
                 return;
             }
 
